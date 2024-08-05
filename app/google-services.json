@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "9631100870",
+    "project_id": "e-belediye-17625",
+    "storage_bucket": "e-belediye-17625.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:9631100870:android:6489e94c317dd897c8ccc7",
+        "android_client_info": {
+          "package_name": "com.example.e_osmangazi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDp1fxZ_xT2efeEdZP5t_gRYAR2PFOsM4Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
