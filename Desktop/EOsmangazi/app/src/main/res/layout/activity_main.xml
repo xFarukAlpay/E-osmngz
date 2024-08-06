@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="#e5f9ff">
 
     <FrameLayout
         android:layout_width="match_parent"
@@ -52,27 +53,32 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:gravity="center"
-        android:layout_marginLeft="25dp"
-        android:layout_marginTop="10dp">
+
+        android:layout_marginTop="1dp">
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:gravity="center"
-            android:layout_margin="10dp">
+            android:layout_margin="15dp"
+            android:background="#e5f9ff"
+            >
 
             <ImageButton
                 android:id="@+id/imageButton1"
-                android:layout_width="48dp"
-                android:layout_height="48dp"
-                app:srcCompat="@android:drawable/btn_dialog" />
+                android:layout_width="65dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/galery"
+                android:background="#e5f9ff"
+
+                />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Galeri\n"
-                android:textAlignment="center"/>
+                android:text="galeri\n"
+             />
         </LinearLayout>
 
         <LinearLayout
@@ -84,9 +90,11 @@
 
             <ImageButton
                 android:id="@+id/imageButton2"
-                android:layout_width="48dp"
+                android:layout_width="65dp"
+                android:background="#e5f9ff"
+
                 android:layout_height="wrap_content"
-                app:srcCompat="@android:drawable/btn_dialog" />
+                app:srcCompat="@drawable/canli" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -104,9 +112,11 @@
 
             <ImageButton
                 android:id="@+id/imageButton3"
-                android:layout_width="48dp"
+                android:layout_width="65dp"
                 android:layout_height="wrap_content"
-                app:srcCompat="@android:drawable/btn_dialog" />
+                app:srcCompat="@drawable/ebelediye"
+                android:background="#e5f9ff"
+                />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -124,9 +134,11 @@
 
             <ImageButton
                 android:id="@+id/imageButton4"
-                android:layout_width="48dp"
+                android:layout_width="65dp"
+                android:background="#e5f9ff"
+
                 android:layout_height="wrap_content"
-                app:srcCompat="@android:drawable/btn_dialog" />
+                app:srcCompat="@drawable/meslek" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -136,25 +148,414 @@
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="63dp"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
+            android:layout_margin="10dp"
             android:gravity="center"
-            android:layout_margin="10dp">
+            android:orientation="vertical">
 
             <ImageButton
                 android:id="@+id/imageButton5"
-                android:layout_width="48dp"
+                android:layout_width="65dp"
+                android:background="#e5f9ff"
+
                 android:layout_height="wrap_content"
-                app:srcCompat="@android:drawable/btn_dialog" />
+                app:srcCompat="@drawable/barinak" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Barınaklar \n"
-                android:textAlignment="center"/>
+                android:text="Barınak \n"
+                android:textAlignment="center" />
         </LinearLayout>
     </LinearLayout>
+
+
+
+    <ScrollView
+        android:id="@+id/ronxq7ykeys"
+        android:layout_width="match_parent"
+        android:layout_height="149dp"
+        android:clipChildren="false"
+        android:clipToPadding="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/rkawxryxroz8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipChildren="false"
+                android:clipToPadding="false">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    android:orientation="vertical" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/rruhs68ihxauo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="24dp"
+                android:layout_marginBottom="13dp"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="116dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="4dp">
+
+                    <LinearLayout
+                        android:id="@+id/rrstrtanivms"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:clipChildren="false"
+                        android:clipToPadding="false"
+                        android:orientation="vertical"
+                        android:paddingVertical="16dp"
+                        android:gravity="center_horizontal">
+
+                        <LinearLayout
+                            android:layout_width="56dp"
+                            android:layout_height="56dp"
+                            android:layout_marginBottom="19dp"
+                            android:background="@color/white"
+                            android:clipChildren="false"
+                            android:clipToPadding="false"
+                            android:orientation="vertical"
+                            android:paddingHorizontal="8dp"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:id="@+id/rvpcsrsdcxp5r"
+                                android:layout_width="46dp"
+                                android:layout_height="46dp"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/sosyal"
+                                app:srcCompat="@drawable/sosyal"/>
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/rwsswq819ep4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Sosyal Destek"
+                            android:textColor="#000000"
+                            android:textSize="12sp"
+                            android:gravity="center_horizontal"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="116dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="4dp">
+
+                    <LinearLayout
+                        android:id="@+id/raq2js6lsrivu"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:clipChildren="false"
+                        android:clipToPadding="false"
+                        android:orientation="vertical"
+                        android:paddingHorizontal="38dp"
+                        android:paddingVertical="16dp"
+                        android:gravity="center_horizontal">
+
+                        <LinearLayout
+                            android:id="@+id/rmvtqtdsvolns"
+                            android:layout_width="56dp"
+                            android:layout_height="56dp"
+                            android:layout_marginBottom="19dp"
+                            android:clipChildren="false"
+                            android:clipToPadding="false"
+                            android:orientation="vertical"
+                            android:paddingHorizontal="8dp"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:id="@+id/rnssm2e3hbkhe"
+                                android:layout_width="46dp"
+                                android:layout_height="46dp"
+                                android:layout_marginTop="9dp"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/masa"
+                                app:srcCompat="@drawable/masa"/>
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/r03c2osmohs0w9"
+                            android:layout_width="74dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:text="Halk Masası"
+                            android:textColor="#000000"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="116dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="4dp">
+
+                    <LinearLayout
+                        android:id="@+id/rtgb1skp6kh3b"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:clipChildren="false"
+                        android:clipToPadding="false"
+                        android:orientation="vertical"
+                        android:paddingVertical="16dp">
+
+                        <LinearLayout
+                            xmlns:android="http://schemas.android.com/apk/res/android"
+                            xmlns:app="http://schemas.android.com/apk/res-auto"
+                            xmlns:tools="http://schemas.android.com/tools"
+                            android:id="@+id/r1urusksd90bd"
+                            android:layout_width="56dp"
+                            android:layout_height="56dp"
+                            android:layout_marginHorizontal="38dp"
+                            android:layout_marginBottom="19dp"
+                            android:clipChildren="false"
+                            android:clipToPadding="false"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/r2kk3geswry34"
+                                android:layout_width="match_parent"
+                                android:layout_height="46dp"
+                                android:layout_marginTop="9dp"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/otopark"
+                                app:srcCompat="@drawable/otopark"/>
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/rbtjdhsabz867"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="27dp"
+                            android:text="Otoparklar"
+                            android:textColor="#000000"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+    <LinearLayout
+                android:id="@+id/rruh68ihxauo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="24dp"
+                android:layout_marginBottom="13dp"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+        <androidx.cardview.widget.CardView
+            android:layout_width="116dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp">
+
+                <LinearLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    xmlns:tools="http://schemas.android.com/tools"
+
+                    android:id="@+id/rrtrtanivms"
+                    android:layout_width="116dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    android:orientation="vertical"
+                    android:paddingVertical="16dp">
+
+                    <LinearLayout
+                        android:id="@+id/ri2jeooj73p"
+                        android:layout_width="56dp"
+                        android:layout_height="56dp"
+                        android:layout_marginHorizontal="37dp"
+                        android:layout_marginBottom="19dp"
+                        android:background="@color/white"
+                        android:clipChildren="false"
+                        android:clipToPadding="false"
+                        android:orientation="vertical"
+                        android:paddingHorizontal="8dp">
+
+                        <ImageView
+                            android:id="@+id/rvpcrsdcxp5r"
+                            android:layout_width="46dp"
+                            android:layout_height="46dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/kamera"
+                            app:srcCompat="@drawable/kamera" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/rwswq819ep4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:text="Şehir Kamerası"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+                </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+        <androidx.cardview.widget.CardView
+            android:layout_width="116dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp">
+                <LinearLayout
+                    android:id="@+id/raq2j6lsrivu"
+                    android:layout_width="116dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    android:orientation="vertical"
+                    android:paddingHorizontal="38dp"
+                    android:paddingVertical="16dp">
+
+                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        xmlns:tools="http://schemas.android.com/tools"
+                        android:id="@+id/rmvtqtdvolns"
+                        android:layout_width="56dp"
+                        android:layout_height="56dp"
+                        android:layout_marginBottom="19dp"
+                        android:clipChildren="false"
+                        android:clipToPadding="false"
+                        android:orientation="vertical"
+                        android:paddingHorizontal="8dp">
+
+                        <ImageView
+                            android:id="@+id/rnsm2e3hbkhe"
+                            android:layout_width="46dp"
+                            android:layout_height="46dp"
+                            android:layout_marginTop="9dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/proje"
+                            app:srcCompat="@drawable/proje"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/r03c2omohs0w9"
+                        android:layout_width="59dp"
+                        android:layout_height="wrap_content"
+                        android:text="Projeler"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+                </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+        <androidx.cardview.widget.CardView
+            android:layout_width="116dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp">
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    android:id="@+id/rtgb1kp6kh3b"
+                    android:layout_width="116dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    android:orientation="vertical"
+                    android:paddingVertical="16dp">
+
+                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        xmlns:tools="http://schemas.android.com/tools"
+                        android:id="@+id/r1uruksd90bd"
+                        android:layout_width="56dp"
+                        android:layout_height="56dp"
+                        android:layout_marginHorizontal="38dp"
+                        android:layout_marginBottom="19dp"
+                        android:clipChildren="false"
+                        android:clipToPadding="false"
+                        android:orientation="vertical"
+                       >
+
+                        <ImageView
+                            android:id="@+id/r2kk3gewry34"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:layout_marginTop="9dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/eczane"
+                            app:srcCompat="@drawable/eczane"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/rbtjdhabz867"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="7dp"
+                        android:text="Nöbetçi Eczaneler"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+                </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
 
     <TextView
         android:id="@+id/newsTextView"
@@ -162,22 +563,20 @@
         android:layout_height="wrap_content"
         android:text="Haberler &amp; Duyurular"
         android:textColor="@android:color/black"
-        android:padding="12dp"
         android:textSize="16sp" />
-
-
 
     <View
         android:layout_width="match_parent"
         android:layout_height="3dp"
         android:background="#808080" /> <!-- Renk kodunu değiştirebilirsiniz -->
 
-
     <androidx.viewpager2.widget.ViewPager2
         android:id="@+id/viewPager"
         android:layout_marginLeft="30dp"
         android:layout_width="350dp"
-        android:layout_height="172dp" />
+        android:layout_height="182dp" />
+
+
 
 
     <View
@@ -185,12 +584,110 @@
         android:layout_height="3dp"
         android:background="#808080" />
 
-    <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="48dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
-        android:layout_marginLeft="340dp"
-        app:srcCompat="@android:drawable/btn_dialog" />
 
+
+
+    <RelativeLayout
+        android:id="@+id/rc8f2lgwwvn5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipChildren="false"
+        android:clipToPadding="false">
+
+        <LinearLayout
+            android:id="@+id/r9o4x0bu4waq"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#CFF2FE"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:orientation="vertical"
+            android:paddingTop="29dp"
+            android:paddingBottom="16dp">
+
+            <LinearLayout
+                android:id="@+id/ry25wxf7n13n"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="44dp"
+                android:layout_marginBottom="21dp"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/ruwlazh1qw0s"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/first"
+                    app:srcCompat="@drawable/first" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:id="@+id/r3iaa84x5o1a"
+                    android:layout_width="23dp"
+                    android:layout_height="21dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/second"
+                    app:srcCompat="@drawable/second" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:id="@+id/rlmk249b6b7"
+                    android:layout_width="20dp"
+                    android:layout_height="19dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/third"
+                    app:srcCompat="@drawable/third"/>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:id="@+id/rj6ygecwoc2"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/four"
+                    app:srcCompat="@drawable/four" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/r71dbo800yl9"
+            android:layout_marginTop="-20dp"
+            android:layout_marginEnd="187dp"
+            android:layout_alignParentRight="true"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:paddingHorizontal="12dp"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:orientation="vertical"
+            android:translationZ="5dp"
+            >
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/home" />
+        </FrameLayout>
+    </RelativeLayout>
 </LinearLayout>
+
+
+
+
